@@ -39,7 +39,10 @@
                      <font>
                         <Font size="12.0" />
                      </font></TextField>
-                  <TextField fx:id="newDueDate" layoutX="314.0" layoutY="3.0" prefHeight="26.0" prefWidth="111.0" promptText="Enter due date" />
+                  <TextField fx:id="newDueDate" layoutX="314.0" layoutY="3.0" prefHeight="26.0" prefWidth="111.0" promptText="Due date(YYYY-MM-DD)">
+                     <font>
+                        <Font size="9.0" />
+                     </font></TextField>
                   <TableView fx:id="taskView" focusTraversable="false" layoutX="3.0" layoutY="64.0" prefHeight="381.0" prefWidth="427.0">
                     <columns>
                       <TableColumn prefWidth="41.0" sortType="DESCENDING" sortable="false" text="Done" />
