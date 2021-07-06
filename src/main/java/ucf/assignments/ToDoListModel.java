@@ -56,17 +56,19 @@ public class ToDoListModel {
     }
 
     public void viewCurrentList(ObservableList toDoLists, TableView taskView, int index, String viewOption) {
-        // Clear taskView and copy the contents of the indexed list to taskView
+        // Check if taskView is empty
+        // - If empty, clear taskView
+        // copy the contents of the indexed list to taskView
     }
 
-    public void loadMultipleLists(ObservableList loadedLists, ObservableList toDoLists) {
-        // clear toDoLists (currently displayed lists)
-        // Add loadedLists to the now empty toDoLists array list
+    public void loadMultipleLists(String fileName, String loadedInput) {
+        // Read the file given in fileName
+        // Assign the read input to loadedInput
     }
 
-    public void loadList(ToDoList loadedList, ObservableList toDoLists) {
-        // Clear toDoLists (currently displayed lists)
-        // Add loadedList to the now empty toDoLists array list
+    public void loadList(String fileName, String loadedInput) {
+        // Read the file given in fileName
+        // Assign the read input to loadedInput
     }
 
     public void saveList(String fileName) {

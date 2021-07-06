@@ -1,6 +1,5 @@
 package ucf.assignments;
 
-import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -129,8 +128,12 @@ public class ToDoListsManagerController implements Initializable {
     @FXML
     public void loadSingleButtonClicked(ActionEvent actionEvent) {
         // Open up a window asking for the directory of the file where the list was saved
-        // Read the list from the file
-        // model.loadList("Name of the ToDoList variable here");
+        // model.loadList("fileName", "");
+        // Create new ObservableList<ToDoList>
+        // Add new element to ObservableList<ToDoList> with components of the file that was read
+        // Clear taskView and toDoListsView
+        // Add ObservableList<ToDoList> to toDoListsView
+        // Add ObservableList<Task> to taskView
     }
 
     @FXML
@@ -145,9 +148,13 @@ public class ToDoListsManagerController implements Initializable {
 
     @FXML
     public void loadMultipleButtonClicked(ActionEvent actionEvent) {
-        // Open up a window asking for the directory of the file where the lists were saved
-        // Read the lists from the file
-        // model.loadMultipleLists("Name of the List<ToDoList> variable here");
+        // Open up a window asking for the directory of the file where the list was saved
+        // model.loadMultiple("fileName", "");
+        // Create new ObservableList<ToDoList>
+        // Add new element to ObservableList<ToDoList> with components of the file that was read
+        // Clear taskView and toDoListsView
+        // Add ObservableList<ToDoList> to toDoListsView
+        // Add ObservableList<Task> to taskView
     }
 
     @FXML
